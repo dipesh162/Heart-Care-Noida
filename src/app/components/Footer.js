@@ -1,0 +1,63 @@
+import { faArrowRightLong, faEarthAmericas, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+
+
+export default function Footer(){
+
+    return(
+        <footer className="bg-[#2a303b]">
+            <div className="mx-auto max-w-[1228px] pt-[65px] px-6 pb-[25px] text-[#c7c7c7] flex md:grid lg:flex flex-col md:flex-row items-start gap-[42px] md:gap-[50px] md:grid-cols-2 justify-between">
+        
+                <div className="w-full lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
+                    <h4 className="pb-6 font-normal text-white text-[18px]">About Dr. Birinder Singh Thind</h4>
+                    <div>Dr. Birinder Singh Thind is a consultant cardiologist at the Thind`s Heart Clinic in Noida having a rich experience in the management and treatment of heart diseases. He completed his PhD in cardiology after doing his M.D and has been in practice ever since gaining a good exposure from his career. He has given care to the patients previously at various hospitals at Noida</div>
+                </div>
+                <div className="w-full lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
+                    <h4 className="pb-6 font-normal text-white text-[18px]">Facilities</h4>
+                    <div>
+                        <ul>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/ecg/">ECG</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/echocardiography/">Echocardiography</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/tmt/">TMT</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/holter-monitoring/">Holter Monitoring</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/stress-echocardiography/">Stress Echocardiography</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/arterial-doppler/">Arterial Doppler</a></li>
+                            <li className="pt-0 px-0 pb-3"><a className="hover:text-[#13c5dd]" href="/venous-doppler/">Venous Doppler</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="w-full lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
+                    <h4 className="pb-6 font-normal text-white text-[18px]">Information</h4>
+                    <p>
+                        <a className="hover:text-[#13c5dd]" href="/">Best Heart Specialist in Noida</a><br></br>
+                        <a className="hover:text-[#13c5dd]" href="/">Best Cardiologist In Noida</a><br></br>
+                        <a className="hover:text-[#13c5dd]" href="/">Best Cardiologist Near me</a><br></br>
+                        <a className="hover:text-[#13c5dd]" href="/">Top Cardiologist In Noida</a><br></br>
+                        <a className="hover:text-[#13c5dd]" href="/">Best Echocardiography Consultant In Noida</a>
+                    </p>    
+                </div>
+                <div className="w-full lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
+                    <h4 className="pb-6 font-normal text-white text-[18px]">Contact Details</h4>
+                    <p className="pb-2.5">B-81, Sector 50, Noida</p>  
+                    <ul>
+                        <li className="pb-3 flex items-center">
+                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='13px' width="15px" icon={faPhone} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Tell </span><a className="hover:text-[#13c5dd]" href="tel:9810643323">9810643323</a>
+                        </li>
+                        <li className="pb-3 flex items-center">
+                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='16px' width="15px" icon={faEnvelope} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Email </span><a className="hover:text-[#13c5dd]" href="mailto:birthind@hotmail.com">birthind@hotmail.com</a>
+                        </li>
+                        <li className="pb-3 flex items-center">
+                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='15px' width="15px" icon={faEarthAmericas} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Website </span><a className="hover:text-[#13c5dd]" href="http://heartcarenoida.com/" target="_blank">http://heartcarenoida.com/</a>
+                        </li>
+
+                        <a href="https://goo.gl/maps/ytkHcWEn13H2" className="flex items-center hover:text-[#13c5dd] hover:cursor-pointer py-1.5 px-4 mt-3 text-[#6e7582] rounded-[100px] border-[#6e7582] hover:border-[#13c5dd] border-2 w-fit">
+                            <span className="mb-0.5">Get Map Direction</span> <FontAwesomeIcon icon={faArrowRightLong} height='15px' width="33px" className="text-white hover:text-[#13c5dd]"/>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    )
+}
