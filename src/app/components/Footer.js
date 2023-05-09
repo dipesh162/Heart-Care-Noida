@@ -1,6 +1,6 @@
+import React from "react";
 import { faArrowRightLong, faEarthAmericas, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 
 export default function Footer(){
