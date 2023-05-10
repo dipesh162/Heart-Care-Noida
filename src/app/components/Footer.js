@@ -43,17 +43,17 @@ export default function Footer(){
                     <p className="pb-2.5">B-81, Sector 50, Noida</p>  
                     <ul>
                         <li className="pb-3 flex items-center">
-                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='13px' width="15px" icon={faPhone} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Tell </span><a className="hover:text-[#13c5dd]" href="tel:9810643323">9810643323</a>
+                            <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faPhone}/> <span className="text-[#b4b4b4] ml-2 mr-1">Tell </span><a className="hover:text-[#13c5dd]" href="tel:9810643323">9810643323</a>
                         </li>
                         <li className="pb-3 flex items-center">
-                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='16px' width="15px" icon={faEnvelope} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Email </span><a className="hover:text-[#13c5dd]" href="mailto:birthind@hotmail.com">birthind@hotmail.com</a>
+                            <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faEnvelope}/> <span className="text-[#b4b4b4] ml-2 mr-1">Email </span><a className="hover:text-[#13c5dd]" href="mailto:birthind@hotmail.com">birthind@hotmail.com</a>
                         </li>
                         <li className="pb-3 flex items-center">
-                            <FontAwesomeIcon className="text-[1px]" color="#13c5dd" height='15px' width="15px" icon={faEarthAmericas} size="lg"/> <span className="text-[#b4b4b4] ml-2 mr-1">Website </span><a className="hover:text-[#13c5dd]" href="http://heartcarenoida.com/" target="_blank">http://heartcarenoida.com/</a>
+                            <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faEarthAmericas}/> <span className="text-[#b4b4b4] ml-2 mr-1">Website </span><a className="hover:text-[#13c5dd]" href="http://heartcarenoida.com/" target="_blank">http://heartcarenoida.com/</a>
                         </li>
 
-                        <a href="https://goo.gl/maps/ytkHcWEn13H2" className="flex items-center hover:text-[#13c5dd] hover:cursor-pointer py-1.5 px-4 mt-3 text-[#6e7582] rounded-[100px] border-[#6e7582] hover:border-[#13c5dd] border-2 w-fit">
-                            <span className="mb-0.5">Get Map Direction</span> <FontAwesomeIcon icon={faArrowRightLong} height='15px' width="33px" className="text-white hover:text-[#13c5dd]"/>
+                        <a href="https://goo.gl/maps/ytkHcWEn13H2" className="flex items-center hover:text-[#13c5dd] hover:cursor-pointer py-[4px] px-3.5 mt-3 text-[#6e7582] rounded-[100px] border-[#6e7582] hover:border-[#13c5dd] border-2 w-fit">
+                            <span className="mb-0.5 text-[14px]">Get Map Direction</span> <FontAwesomeIcon icon={faArrowRightLong} fontSize={14} className="text-white hover:text-[#13c5dd] px-1.5"/>
                         </a>
                     </ul>
                 </div>
