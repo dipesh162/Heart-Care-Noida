@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer(){
 
     return(
-        <footer className="bg-[#2a303b]">
+        <footer className="bg-[#2a303b] font-sans">
             <div className="mx-auto max-w-[1228px] pt-[65px] px-6 pb-[25px] text-[#c7c7c7] flex md:grid lg:flex flex-col md:flex-row items-start gap-[42px] md:gap-[50px] md:grid-cols-2 justify-between">
         
                 <div className="w-full lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
@@ -42,13 +42,13 @@ export default function Footer(){
                     <h4 className="pb-6 font-normal text-white text-[18px]">Contact Details</h4>
                     <p className="pb-2.5">B-81, Sector 50, Noida</p>  
                     <ul>
-                        <li className="pb-3 flex items-center">
+                        <li className="pb-3 flex flex-wrap leading-6 items-center">
                             <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faPhone}/> <span className="text-[#b4b4b4] ml-2 mr-1">Tell </span><a className="hover:text-[#13c5dd]" href="tel:9810643323">9810643323</a>
                         </li>
-                        <li className="pb-3 flex items-center">
+                        <li className="pb-3 flex flex-wrap leading-6 items-center">
                             <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faEnvelope}/> <span className="text-[#b4b4b4] ml-2 mr-1">Email </span><a className="hover:text-[#13c5dd]" href="mailto:birthind@hotmail.com">birthind@hotmail.com</a>
                         </li>
-                        <li className="pb-3 flex items-center">
+                        <li className="pb-3 flex flex-wrap leading-6 items-center">
                             <FontAwesomeIcon color="#13c5dd" fontSize={15} icon={faEarthAmericas}/> <span className="text-[#b4b4b4] ml-2 mr-1">Website </span><a className="hover:text-[#13c5dd]" href="http://heartcarenoida.com/" target="_blank">http://heartcarenoida.com/</a>
                         </li>
 

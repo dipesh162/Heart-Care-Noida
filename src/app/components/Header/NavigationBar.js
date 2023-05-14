@@ -44,7 +44,7 @@ export default function NavigationBar() {
                         </div>
                     </a>
 
-                    <nav>
+                    <nav className="font-sans">
                         <ul className="hidden md:flex">
                             <li>
                                 <a className="hover:text-[#13c5dd] text-[#555555] text-[15px] pt-[35px] px-3 pb-[39px]" href="/">

@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer base {
+  @font-face {
+    font-family: 'Asap';
+    src: url('/fonts/asap.regular.otf');
+  }
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -27,6 +32,8 @@ body {
 }
 
 
+/* Home page Carousel Images Transitions CSS */
+ 
 .transitions-enter {
   opacity: 0;
   transform: scale(0.9);
