@@ -30,9 +30,8 @@ export default function IntroSection() {
             className="flex justify-center bg-no-repeat bg-cover bg-position w-full h-[400px] md:h-[600px]"
             style={{
                 backgroundImage: `url("/images/Home/carousel_${carouselImageIndex}.png")`,
-                webkitTransition: 'background-image 1s ease-in-out',
+                transition: 'background-image 1s ease-in-out',
                 backgroundPosition: '100%',
-                backgroundColor: 'rgba(1, 24, 45, 0.25)'
             }}
         >
             <div className="p-6 lg:p-4">
