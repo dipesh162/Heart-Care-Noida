@@ -11,8 +11,8 @@ export default function InfoNavbar(){
 
     return(
         <div className="hidden font-sans md:block bg-[#fcfcfc] border-b-[1px] border-[#eeeeee]">
-            <div className="flex w-[750px] mx-auto lg:w-[970px] pt-4 px-4 pb-5 md:gap-2.5 md:flex-col md:items-center lg:gap-0 lg:pt-1.5 lg:pb-2 lg:flex-row lg:justify-between">
-                <div className="flex gap-7">
+            <div className="flex w-[750px] mx-auto lg:w-[1170px] pt-4 px-4 pb-5 md:gap-2.5 md:flex-col md:items-center lg:gap-0 lg:pt-1.5 lg:pb-2 lg:flex-row lg:justify-between">
+            <div className="flex gap-7">
                     <div className=" flex gap-[6px]">
                     <FontAwesomeIcon icon="fa-solid fa-coffee" fixedWidth />
 

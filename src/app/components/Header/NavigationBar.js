@@ -33,7 +33,7 @@ export default function NavigationBar() {
     return (
         <>
             <header className="bg-white sticky top-0 z-[1]">
-                <div className="mx-auto px-4 py-8 md:w-[750px] lg:w-[970px] flex items-center justify-between">
+                <div className="mx-auto px-4 lg:px-4 py-8 lg:w-[1170px] flex items-center justify-between">
                     <a href='/'>
                         <div className="relative w-[160px] h-[32px] md:w-[235px] md:h-[48px] lg:w-[292px] lg:h-[60px] ">
                             <Image

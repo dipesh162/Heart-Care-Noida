@@ -35,7 +35,7 @@ export default function IntroSection() {
             }}
         >
             <div className="p-6 lg:p-4">
-                <div className="lg:w-[970px] mx-auto">
+                <div className="lg:w-[1170px] mx-auto">
                     <div className="font-sans mt-[85px] md:mt-[150px] lg:mt-[150px] align-middle left-0 right-0 text-[22px]  sm:text-[32px] md:text-[50px] text-center lg:text-left leading-6 sm:leading-9 md:leading-[50px] w-full lg:w-[500px] font-semibold mx-auto lg:mx-0">
                         {carouselImageCaption}
                     </div>
