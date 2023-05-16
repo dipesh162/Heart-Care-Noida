@@ -32,7 +32,7 @@ export default function NavigationBar() {
 
     return (
         <>
-            <header className="bg-white sticky top-0 z-[1]">
+            <header className="bg-white sticky top-0 z-[2]" style={{boxShadow: '0 2px 3px rgba(0, 0, 0, 0.1)'}}>
                 <div className="mx-auto px-4 lg:px-4 py-8 lg:w-[1170px] flex items-center justify-between">
                     <a href='/'>
                         <div className="relative w-[160px] h-[32px] md:w-[235px] md:h-[48px] lg:w-[292px] lg:h-[60px] ">
