@@ -7,7 +7,7 @@ export default function Footer(){
 
     return(
         <footer className="bg-[#2a303b] font-sans">
-            <div className="mx-auto lg:w-[1170px] pt-[65px] px-6 lg:px-0 pb-[25px] text-[#c7c7c7] flex md:grid lg:flex flex-col md:flex-row items-start gap-[42px] md:gap-[50px] lg:gap-0 md:grid-cols-2 justify-between">
+            <div className="mx-auto lg:w-[1170px] pt-[65px] sm:px-4 md:px-6 lg:px-0 pb-[25px] text-[#c7c7c7] flex md:grid lg:flex flex-col md:flex-row items-start gap-[42px] md:gap-[50px] lg:gap-0 md:grid-cols-2 justify-between">
         
                 <div className="w-full px-4 lg:w-1/4 basis-0 grow text-[#c8c8c8] text-[15px] leading-[22px]">
                     <h4 className="pb-6 font-normal text-white text-[18px]">About Dr. Birinder Singh Thind</h4>
