@@ -12,6 +12,7 @@ export default function Testimonials(){
         >
             {TestimonialsData.map((testimonial,i)=>(
                 <TestimonialsProofs
+                    key={i}
                     number={testimonial.number}
                     item={testimonial.item}
                 />
