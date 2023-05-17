@@ -24,7 +24,7 @@ export default function AboutDr(){
 
 
     return(
-        <div className='max-w-[1170px] mx-auto pt-[96px] px-[25px] pb-[70px]'>
+        <div className='max-w-[1170px] mx-auto py-[52px] md:pt-[96px]  md:pb-[70px] px-[25px]'>
 
             <div className='relative flex justify-center' onMouseEnter={togglePlusIcon}  onMouseLeave={()=> {togglePlusIcon(); setOverlayInfoScreenVisible(false)}}>
                 <Image
@@ -34,9 +34,7 @@ export default function AboutDr(){
                 />
 
                 {overlayInfoScreenVisible &&
-                    <div className='absolute top-0 left-0 bg-[rgba(0,0,0,0.35)] w-full h-full text-white flex items-center justify-center'
-                        style={{transition: 'all ease .3s'}}
-                    >
+                    <div className='absolute top-0 left-0 bg-[rgba(0,0,0,0.35)] w-full h-full text-white flex items-center justify-center'>
                         <ul className='text-center'>
                             <li className='py-[5px]'><FontAwesomeIcon color="#fff" height={16} width={16} icon={faEnvelope}/><a className="hover:cursor-pointer text-[14px] pl-2.5" href="mailto:birthind@hotmail.com">birthind@hotmail.com</a></li>
                             <li className='py-[5px]'><FontAwesomeIcon color="#fff" height={16} width={16} icon={faPhone}/><a className="hover:cursor-pointer text-[14px] pl-2.5" href="tel:9810643323">9810643323</a></li>
@@ -44,16 +42,15 @@ export default function AboutDr(){
                     </div>
                 }
 
-                <CSSTransition
-                    in={showPlusIcon}
-                    timeout={2000}
-                    classNames="transitions"
-                    unmountOnExit
-                >
-                    <div onClick={toggleOverlayScreen} className={`rotate-${overlayInfoScreenVisible ? 45 : 0} absolute top-[14px] right-[14px] rounded-[50%] font-bold text-lg pb-[3px] bg-[#13c5dd] h-[35px] w-[35px] flex items-center justify-center hover:cursor-pointer`}>
+                    <div onClick={toggleOverlayScreen} className={`rotate-${overlayInfoScreenVisible ? 45 : 0} absolute top-[14px] right-[14px] rounded-[50%] font-bold text-lg pb-[3px] bg-[#13c5dd] h-[35px] w-[35px] flex items-center justify-center hover:cursor-pointer`}
+                        style={{
+                            "-webkit-transition": "-webkit-transform .2s ease-in-out",
+                            "-ms-transition": "-ms-transform .2s ease-in-out",
+                            "transition": "transform .2s ease-in-out",  
+                        }}
+                    >
                         +
                     </div>
-                </CSSTransition>
 
             </div>
             <DrReadMoreCard/>
