@@ -1,24 +1,16 @@
 'use client';
 
+// React
 import Image from "next/image";
 import React, { useState } from "react";
 import { CSSTransition } from 'react-transition-group';
+
+// Icons
 import { faAngleDown, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const FacilitiesSubMenu = () => {
-    return (
-        <ul role="menu" class="text-[15px] pt-2.5 px-0 pb-3">
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/ecg/">ECG</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/echocardiography/">Echocardiography</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/tmt/">TMT</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/holter-monitoring/">Holter Monitoring</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/stress-echocardiography/">Stress Echocardiography</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/arterial-doppler/">Arterial Doppler</a></li>
-            <li className="p-0"><a className="hover:text-[#13c5dd] hover:bg-[#434ea11a] font-sans text-[#666666] pt-1.5 pr-2.5 pb-2 pl-5 block" href="/venous-doppler/">Venous Doppler</a></li>
-        </ul>
-    )
-}
+// Components
+import FacilitiesSubMenu from "./FacilitiesSubMenu";
 
 
 export default function NavigationBar() {
@@ -74,6 +66,7 @@ export default function NavigationBar() {
                                         <FacilitiesSubMenu />
                                     </div>
                                 </CSSTransition>
+
                             </li>
                             <li>
                                 <a className="hover:text-[#13c5dd] text-[#555555] text-[15px] pt-[35px] px-3 pb-[39px]" href="/about-us">

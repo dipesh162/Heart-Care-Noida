@@ -7,6 +7,7 @@ import FacilitiesCards from "./components/HomePage/FacilitiesCards";
 import ServicesSection from "./components/HomePage/ServicesSection";
 import About from "./components/HomePage/About";
 import Testimonials from "./components/HomePage/Testimonials";
+import AboutDr from "./components/HomePage/AboutDr";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ServicesSection/>
       <About/>
       <Testimonials/>
+      <AboutDr/>
     </>
   )
 }
