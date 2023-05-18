@@ -42,16 +42,11 @@ export default function AboutDr(){
                     </div>
                 }
 
-                    <div onClick={toggleOverlayScreen} className={`rotate-${overlayInfoScreenVisible ? 45 : 0} absolute top-[14px] right-[14px] rounded-[50%] font-bold text-lg pb-[3px] bg-[#13c5dd] h-[35px] w-[35px] flex items-center justify-center hover:cursor-pointer`}
-                        style={{
-                            "-webkit-transition": "-webkit-transform .2s ease-in-out",
-                            "-ms-transition": "-ms-transform .2s ease-in-out",
-                            "transition": "transform .2s ease-in-out",  
-                        }}
-                    >
+                {showPlusIcon &&
+                    <div onClick={toggleOverlayScreen} style={{transform: overlayInfoScreenVisible ? `rotate(45deg)` : `rotate(0deg)`}} className="absolute top-[14px] right-[14px] rounded-[50%] font-bold text-lg pb-[3px] bg-[#13c5dd] h-[35px] w-[35px] flex items-center justify-center hover:cursor-pointer">
                         +
                     </div>
-
+                }
             </div>
             <DrReadMoreCard/>
         </div>
