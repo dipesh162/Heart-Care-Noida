@@ -1,6 +1,8 @@
+'use client';
+
+// React
 import Image from 'next/image'
 import React, { useState } from 'react'
-import { CSSTransition } from 'react-transition-group'
 
 // Components
 import DrReadMoreCard from './DrReadMoreCard'

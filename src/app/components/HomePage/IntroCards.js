@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import carouselSlides from "@component/app/static/HomePage/CarouselSlides";
+// React
+import React from "react";
 
 // Components
 import IntroCard from "./IntroCard";

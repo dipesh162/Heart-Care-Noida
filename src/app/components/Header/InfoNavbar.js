@@ -1,6 +1,9 @@
 'use client';
 
+// React
 import React from "react";
+
+// Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faMobileAndroidAlt} from "@fortawesome/free-solid-svg-icons";
 import { faFacebookSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -14,8 +17,6 @@ export default function InfoNavbar(){
             <div className="flex w-[750px] mx-auto lg:w-[1170px] pt-4 px-4 pb-5 md:gap-2.5 md:flex-col md:items-center lg:gap-0 lg:pt-1.5 lg:pb-2 lg:flex-row lg:justify-between">
             <div className="flex gap-7">
                     <div className=" flex gap-[6px]">
-                    <FontAwesomeIcon icon="fa-solid fa-coffee" fixedWidth />
-
                         <FontAwesomeIcon color="#999999" icon={faLocationDot}  height={15} width={15} />
                         <div className="text-[#999999] text-[13px]"> B-81, Sector 50, Noida </div>
                     </div>

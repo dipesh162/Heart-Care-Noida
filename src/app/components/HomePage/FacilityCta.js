@@ -1,3 +1,6 @@
+'use client';
+
+// React
 import React, { useState } from "react";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,7 +1,8 @@
+// React
 import React from "react";
 
 // Components
-import { Facilities } from "@component/app/static/HomePage/Facilities";
+import { Facilities } from "@component/app/static/Facilities";
 import FacilityCta from "./FacilityCta";
 
 export default function FacilitiesMenu() {

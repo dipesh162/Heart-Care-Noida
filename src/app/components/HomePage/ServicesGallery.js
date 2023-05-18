@@ -1,8 +1,10 @@
+'use client';
+
 import React from "react";
 const tailwindConfig = require('tailwind.config.js')
 
 // Static
-import Services from "@component/app/static/HomePage/Services";
+import Services from "@component/app/static/Services";
 
 // Components
 import ServiceCard from "../ServiceCard";

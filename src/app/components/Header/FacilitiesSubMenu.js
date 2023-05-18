@@ -2,7 +2,7 @@
 import React from "react";
 
 // Static
-import { Facilities } from "@component/app/static/HomePage/Facilities";
+import { Facilities } from "@component/app/static/Facilities";
 
 
 export default function FacilitiesSubMenu(){
