@@ -15,7 +15,7 @@ export default function FacilitiesSubMenu(){
                         {facility.name}
                     </a>
                 </li>
-            ))
+            ))  
             }
         </ul>
     )
