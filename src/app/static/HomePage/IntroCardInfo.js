@@ -11,7 +11,7 @@ const IntroCardInfo = [
     },
     {
         bgColor:'#3498db',
-        heading:'Best Cardiologist In Noida',
+        heading:'Opening Hours',
         subHeading:'',
     }
 ]
