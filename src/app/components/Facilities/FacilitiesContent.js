@@ -1,7 +1,7 @@
 // React
 import Parser from 'html-react-parser';
 
-export default function({facility}){
+export default function FacilitiesContent({facility}){
     return(
         <div className="py-[50px] px-0 md:pt-[80px] md:pb-[100px] md:px-0 ">
             <div className="max-w-[1170px] px-[25px] md:px-[15px] lg:p-0 mx-auto">

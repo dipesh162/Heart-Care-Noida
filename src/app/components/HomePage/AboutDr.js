@@ -33,6 +33,7 @@ export default function AboutDr(){
                     src={'/images/doctor_2.jpg'}
                     width={300}
                     height={213}
+                    alt="Doctor's Image"
                 />
 
                 {overlayInfoScreenVisible &&

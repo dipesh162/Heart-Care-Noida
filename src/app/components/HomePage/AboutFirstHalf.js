@@ -11,7 +11,7 @@ export default function AboutFirstHalf(){
                 <BoldedDivider/>
 
                 <div className="w-full relative lg:w-[388px] mt-[29px] mx-auto lg:mx-0 lg:ml-4 block">
-                    <img src='/images/doctor.jpg' height={'auto'} width="100%"></img>
+                    <img src='/images/doctor.jpg' height={'auto'} width="100%" alt="Doctor's Image"></img>
                 </div>
             </div>
         </> 
