@@ -1,6 +1,9 @@
 // React
 import React from 'react'
 
+// Components
+import BreadCrumb from './BreadCrumb'
+
 export default function ServicesCover({name,items}){
     return(
         <div className='py-[50px] md:py-[60px] relative bg-center bg-auto bg-no-repeat overflow-hidden' style={{
@@ -11,35 +14,14 @@ export default function ServicesCover({name,items}){
                 <h2 className='text-[26px] leading-[30px] mb-[5px] md:mb-[15px] lg:mb-0 md:text-[30px] md:leading-[34px] lg:text-[35px] lg:leading-[38px] px-[15px] font-bold'>{name}</h2>
                 <h3 className='px-[15px] pt-[7px]'>{
                     items.map((item,i)=>(
-                        <>
-                        {i!==0 && <span className='px-1'>/</span>}
-                        {item.link ? 
-                            <a href='/' className='hover:opacity-[0.8] hover:cursor-pointer'><span>{item.name}</span></a>
-                        
-                        :
-                            <span>{item.name}</span>
-                        }
-                        </>
+                        <BreadCrumb
+                            key={i}
+                            item={item}
+                            i={i}
+                        />
                     ))
                 }</h3>
             </div>
         </div>
     )
 }
-
-ServicesCover.defaultProps = {
-    items: [
-        {
-            name: 'abc',
-            link: '/'
-        },
-        {
-            name: 'dev abc',
-            // link: '/'
-        },
-        {
-            name: 'a asd ad bsdc',
-            link: '/'
-        },
-    ]
-  }
