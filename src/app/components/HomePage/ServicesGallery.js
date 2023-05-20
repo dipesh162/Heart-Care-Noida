@@ -80,7 +80,7 @@ export default function ServicesGallery() {
                             name={service.name}
                             details={service.details}
                             link={service.link}
-                            detailslineClamp={service.detailslineClamp}
+                            detailslineClamp={service.detailslineClampHomePage}
                         />
                     </SwiperSlide>
                 ))}
@@ -95,7 +95,7 @@ export default function ServicesGallery() {
                     name={service.name}
                     details={service.details}
                     link={service.link}
-                    detailslineClamp={service.detailslineClamp}
+                    detailslineClamp={service.detailslineClampHomePage}
                 />
                 ))}
                 </div>
