@@ -8,7 +8,6 @@ export default function ServicesGallery(){
     return(
         <div className="py-[50px] md:py-[70px] mx-auto px-6 md:px-[15px] max-w-[1170px] gap-x-[30px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {Services.map((service,i)=>(
-                <div className="mb-[30px]">
                     <ServiceCard
                         key={i}
                         imgPath={service.imgPath}
@@ -17,7 +16,6 @@ export default function ServicesGallery(){
                         link={service.link}
                         detailslineClamp={service.detailslineClampServicePage}
                     />
-                </div>
             ))}
         </div>
     )
