@@ -10,13 +10,13 @@ import ViewDetailsCta from "./ViewDetailsCta";
 export default function ServiceCard({imgPath, name, details, link, detailslineClamp}){
 
     return(
-        <div className="border-[1px] border-[#e8e8e8] rounded-[5px] font-sans w-full">
+        <div className="border-[1px] border-[#e8e8e8] rounded-[5px] font-sans w-full mb-[30px]">
             <Link href={link} className="rounded-t-[inherit]">
                 <div className="w-100 relative h-[227px] rounded-t-[inherit]">
                     <Image
                         src={`/images${imgPath}`}
                         fill={true}
-                        alt="Service Image"
+                        alt="Dr. Birinder Singh Thind, cardiologist, ecg, ecocardiography, stress echocardiography, holter monitoring"
                         className="rounded-t-[inherit]"
                     />
                 </div>
