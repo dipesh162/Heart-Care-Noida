@@ -5,7 +5,6 @@ import ServicesCover from "../components/ServicesCover";
 
 export const metadata = {
     openGraph: {
-        type: 'object',
         url: '',
         title: 'Services Archive |',
     },
