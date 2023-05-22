@@ -2,6 +2,15 @@
 import DoctorsInfo from "@component/app/components/DoctorsMain/DoctorsInfo";
 import ServicesCover from "@component/app/components/ServicesCover";
 
+export const metadata = {
+    openGraph: {
+        type: 'article',
+        url: '',
+        title: 'Dr. Birinder Singh Thind |',
+    },
+    title: 'Dr. Birinder Singh Thind |'
+};
+
 export default function DoctorsMainPage(){
 
     return(

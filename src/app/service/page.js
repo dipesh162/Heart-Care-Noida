@@ -2,6 +2,16 @@
 import ServicesGallery from "../components/Services/ServicesGallery";
 import ServicesCover from "../components/ServicesCover";
 
+
+export const metadata = {
+    openGraph: {
+        type: 'object',
+        url: '',
+        title: 'Services Archive |',
+    },
+    title: 'Services Archive |'
+}
+
 export default function Service(){
 
     return(
