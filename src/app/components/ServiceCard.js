@@ -22,7 +22,7 @@ export default function ServiceCard({imgPath, name, details, link, detailslineCl
                 </div>
             </Link>
             <div className="pt-6 px-6 pb-9">
-                <h4 className="pb-1.5 text-[20px] text-[#333333]">{name}</h4>
+                <h4 className="pb-1.5 text-[20px] text-[#333333]"><a href={link}>{name}</a></h4>
                 <p className="mb-2.5 text-[#777777] text-[14px] tracking-[0.2px] leading-6"
                     style={{
                         overflow: 'hidden',
