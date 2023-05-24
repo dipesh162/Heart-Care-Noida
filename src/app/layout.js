@@ -15,6 +15,9 @@ export const metadata = {
       url: '/images/apple-touch-icon-precomposed.png',
     },
   },
+  openGraph:{
+    locale: 'en_US'
+  }
 }
 
 export default function RootLayout({ children }) {

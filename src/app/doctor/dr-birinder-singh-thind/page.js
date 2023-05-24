@@ -4,8 +4,7 @@ import ServicesCover from "@component/app/components/ServicesCover";
 
 export const metadata = {
     openGraph: {
-        type: 'article',
-        url: '',
+        url: `${process.env.NEXT_APP_URL}/doctor/dr-birinder-singh-thind/`,
         title: 'Dr. Birinder Singh Thind |',
     },
     title: 'Dr. Birinder Singh Thind |'

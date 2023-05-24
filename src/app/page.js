@@ -9,8 +9,8 @@ import AboutDr from "./components/HomePage/AboutDr";
 
 export const metadata = {
     openGraph: {
-      type: 'article',
-      url: '',
+      type: 'website',
+      url: process.env.NEXT_APP_URL,
       title: 'Dr. Birinder Thind | Best Cardiologist In Noida',
       description: 'Dr. Birinder Singh Thind is a consultant cardiologist at the Thind`s Heart Clinic in Noida having a rich experience in the management and treatment of heart diseases.',
     },

@@ -3,14 +3,27 @@ import React from "react";
 
 // Static
 import { Facilities } from "../static/Facilities";
+import { FacilitiesMetaDescription } from "../static/FacilitiesMetaDescription";
+import { FacilitiesMetaTitle } from "../static/FacilitiesMetaTitle";
 
 // Components
 import FacilitiesInfo from "../components/Facilities/FacilitiesInfo";
 
 
-export default function Ecg(){
+const [FacilityData] = Facilities.filter(facility=> facility.name == "ECG")
 
-    const [FacilityData] = Facilities.filter(facility=> facility.name == "ECG")
+export const metadata = {
+    openGraph: {
+      type: 'article',
+      url: `${process.env.NEXT_APP_URL}${FacilityData.link}`,
+      title: `${FacilityData.name} ${FacilitiesMetaTitle}`,
+      description: `${FacilityData.name} - ${FacilitiesMetaDescription}`,
+    },
+    title: `${FacilityData.name} ${FacilitiesMetaTitle}`,
+    description: `${FacilityData.name} - ${FacilitiesMetaDescription}`,
+}
+
+export default function Ecg(){
 
     return(
         <>

@@ -5,7 +5,7 @@ import ServicesCover from "../components/ServicesCover";
 
 export const metadata = {
     openGraph: {
-        url: '',
+        url: `${process.env.NEXT_APP_URL}/service`,
         title: 'Services Archive |',
     },
     title: 'Services Archive |'

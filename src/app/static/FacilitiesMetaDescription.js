@@ -1,0 +1,1 @@
+export const FacilitiesMetaDescription ='Dr Birinder Singh Thind is considered one of the best experienced Cardiologist in Noida providing all facilities in his cardiac centre i.e TMT & ECG. Book Appointment Noida, Ghaziabad & Delhi.'
